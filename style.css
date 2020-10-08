@@ -65,3 +65,29 @@ body {
     text-align: justify;
     color: #797979;
 }
+
+.picture {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    position: relative;
+}
+
+.picture::after,
+.picture::before {
+    content: '';
+    background-color: white;
+    display: block;
+    height: 5px;
+    position: absolute;
+    width: 5px;
+  }
+
+.picture::after {
+    bottom: -1px;
+    right: -1px;
+  }
+
+.picture::before {
+    top: -1px;
+    left: -1px;
+  }
