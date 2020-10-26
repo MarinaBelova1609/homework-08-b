@@ -59,3 +59,13 @@ body {
 .text {
     font-size: 14px;
 }
+
+.textarea-item {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.textarea-item2 {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
